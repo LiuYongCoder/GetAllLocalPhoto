@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopSelectView">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cd1-Rs-5zn">
+                    <rect key="frame" x="15" y="95" width="240" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ZeL-zm-RQ1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ga4-IF-SGU">
+                    <rect key="frame" x="134.5" y="108" width="1" height="30"/>
+                    <color key="backgroundColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8lR-hR-oaw"/>
+                        <constraint firstAttribute="width" constant="1" id="mso-cf-fYX"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtC-uj-COJ">
+                    <rect key="frame" x="136" y="97" width="134" height="53"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="确认">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="commitBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gmf-gW-DJg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsd-1Z-dFm">
+                    <rect key="frame" x="0.0" y="97" width="134" height="53"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Nbf-BC-yhx"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBO-MS-rO8">
+                    <rect key="frame" x="135" y="81" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpR-ET-5fv">
+                    <rect key="frame" x="135" y="72" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.21176470588235294" green="0.20000000000000001" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rtC-uj-COJ" firstAttribute="top" secondItem="cd1-Rs-5zn" secondAttribute="bottom" constant="1" id="BdN-X8-k6v"/>
+                <constraint firstAttribute="bottom" secondItem="rtC-uj-COJ" secondAttribute="bottom" id="D5F-Yf-LpJ"/>
+                <constraint firstAttribute="bottom" secondItem="Ga4-IF-SGU" secondAttribute="bottom" constant="12" id="NVU-ff-dxg"/>
+                <constraint firstItem="cd1-Rs-5zn" firstAttribute="top" secondItem="OBO-MS-rO8" secondAttribute="bottom" constant="14" id="QDM-hx-L8z"/>
+                <constraint firstAttribute="trailing" secondItem="rtC-uj-COJ" secondAttribute="trailing" id="R3f-c0-exu"/>
+                <constraint firstItem="rtC-uj-COJ" firstAttribute="leading" secondItem="Ga4-IF-SGU" secondAttribute="trailing" constant="0.5" id="ZHP-cS-dwi"/>
+                <constraint firstItem="Ga4-IF-SGU" firstAttribute="leading" secondItem="Rsd-1Z-dFm" secondAttribute="trailing" constant="0.5" id="cZD-Vx-3Gj"/>
+                <constraint firstItem="Ga4-IF-SGU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ddc-DL-OJx"/>
+                <constraint firstItem="Ga4-IF-SGU" firstAttribute="centerX" secondItem="IpR-ET-5fv" secondAttribute="centerX" id="gGs-gO-2Z9"/>
+                <constraint firstAttribute="trailing" secondItem="cd1-Rs-5zn" secondAttribute="trailing" constant="15" id="h4c-bH-bl0"/>
+                <constraint firstAttribute="bottom" secondItem="cd1-Rs-5zn" secondAttribute="bottom" constant="54" id="jMq-xj-zI4"/>
+                <constraint firstItem="Rsd-1Z-dFm" firstAttribute="top" secondItem="cd1-Rs-5zn" secondAttribute="bottom" constant="1" id="lnu-LO-5Sn"/>
+                <constraint firstAttribute="bottom" secondItem="Rsd-1Z-dFm" secondAttribute="bottom" id="nlM-uR-Hhl"/>
+                <constraint firstItem="OBO-MS-rO8" firstAttribute="centerX" secondItem="IpR-ET-5fv" secondAttribute="centerX" id="oET-PM-u9I"/>
+                <constraint firstItem="OBO-MS-rO8" firstAttribute="top" secondItem="IpR-ET-5fv" secondAttribute="bottom" constant="9" id="pMN-bK-FgT"/>
+                <constraint firstItem="Rsd-1Z-dFm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wcv-kb-u0C"/>
+                <constraint firstItem="cd1-Rs-5zn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="zYZ-vI-c8d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="popContentLab" destination="OBO-MS-rO8" id="sco-yC-ixx"/>
+                <outlet property="popTitleLab" destination="IpR-ET-5fv" id="Mg9-PF-pun"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="108.84557721139431"/>
+        </view>
+    </objects>
+</document>

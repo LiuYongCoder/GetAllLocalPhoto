@@ -15,8 +15,10 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - GKNavigationBarViewController (2.5.7)
+  - MBProgressHUD (1.2.0)
   - MJExtension (3.2.2)
   - MJRefresh (3.4.3)
+  - ScottAlertController (0.1.0)
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
   - SDWebImage/Core (5.8.4)
@@ -25,8 +27,10 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - GKNavigationBarViewController
+  - MBProgressHUD
   - MJExtension
   - MJRefresh
+  - ScottAlertController
   - SDWebImage
   - YYText
 
@@ -34,19 +38,23 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - GKNavigationBarViewController
+    - MBProgressHUD
     - MJExtension
     - MJRefresh
+    - ScottAlertController
     - SDWebImage
     - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   GKNavigationBarViewController: b35372e39f7f48d5ecb867046b086eab3bd5df79
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  ScottAlertController: 2edee4ca00ee521777740d8e02ad550f7354f61d
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 0b495d34d3f843749f0d6c8bdf25e5cb1455f0f1
+PODFILE CHECKSUM: 123ae585e685366704a1a2e6ad190f62c6d7d5ad
 
 COCOAPODS: 1.10.1

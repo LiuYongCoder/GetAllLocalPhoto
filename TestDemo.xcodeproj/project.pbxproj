@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,21 @@
 		0341547C25BEB7C100251AC2 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0341547B25BEB7C100251AC2 /* TestDemoUITests.m */; };
 		0341549525BEB84B00251AC2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0341549125BEB84B00251AC2 /* UIView+Frame.m */; };
 		0341549625BEB84B00251AC2 /* UIColor+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0341549225BEB84B00251AC2 /* UIColor+SNFoundation.m */; };
+		034154BC25BEC63C00251AC2 /* AssetSelectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034154B525BEC63C00251AC2 /* AssetSelectCollectionViewCell.xib */; };
+		034154BD25BEC63C00251AC2 /* PHAssetGetThumbnailImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154B725BEC63C00251AC2 /* PHAssetGetThumbnailImages.m */; };
+		034154BE25BEC63C00251AC2 /* SelectAssetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034154B825BEC63C00251AC2 /* SelectAssetsViewController.xib */; };
+		034154BF25BEC63C00251AC2 /* AssetSelectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154B925BEC63C00251AC2 /* AssetSelectCollectionViewCell.m */; };
+		034154C025BEC63C00251AC2 /* SelectAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154BA25BEC63C00251AC2 /* SelectAssetsViewController.m */; };
+		034154C125BEC63C00251AC2 /* SelectImageStatusObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154BB25BEC63C00251AC2 /* SelectImageStatusObj.m */; };
+		034154CB25BEC74800251AC2 /* PopSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034154C825BEC74800251AC2 /* PopSelectView.xib */; };
+		034154CC25BEC74800251AC2 /* PopSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154CA25BEC74800251AC2 /* PopSelectView.m */; };
+		034154E325BEC81D00251AC2 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154DD25BEC81D00251AC2 /* MBProgressHUD+Add.m */; };
+		034154E425BEC81D00251AC2 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034154DE25BEC81D00251AC2 /* error@2x.png */; };
+		034154E525BEC81D00251AC2 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034154DF25BEC81D00251AC2 /* success@2x.png */; };
+		034154E625BEC81D00251AC2 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 034154E025BEC81D00251AC2 /* error.png */; };
+		034154E725BEC81D00251AC2 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 034154E125BEC81D00251AC2 /* success.png */; };
+		034154F125BECB0E00251AC2 /* ShowSelectImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034154EF25BECB0E00251AC2 /* ShowSelectImageViewController.m */; };
+		034154F225BECB0E00251AC2 /* ShowSelectImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034154F025BECB0E00251AC2 /* ShowSelectImageViewController.xib */; };
 		BF72F05CFF46DF64A43CCD69 /* libPods-TestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9517BD2EBEBADAE45077E90E /* libPods-TestDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +74,28 @@
 		0341549225BEB84B00251AC2 /* UIColor+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SNFoundation.m"; sourceTree = "<group>"; };
 		0341549325BEB84B00251AC2 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		0341549425BEB84B00251AC2 /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		034154B225BEC63C00251AC2 /* PHAssetGetThumbnailImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAssetGetThumbnailImages.h; sourceTree = "<group>"; };
+		034154B325BEC63C00251AC2 /* AssetSelectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetSelectCollectionViewCell.h; sourceTree = "<group>"; };
+		034154B425BEC63C00251AC2 /* SelectAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAssetsViewController.h; sourceTree = "<group>"; };
+		034154B525BEC63C00251AC2 /* AssetSelectCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssetSelectCollectionViewCell.xib; sourceTree = "<group>"; };
+		034154B625BEC63C00251AC2 /* SelectImageStatusObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageStatusObj.h; sourceTree = "<group>"; };
+		034154B725BEC63C00251AC2 /* PHAssetGetThumbnailImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAssetGetThumbnailImages.m; sourceTree = "<group>"; };
+		034154B825BEC63C00251AC2 /* SelectAssetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectAssetsViewController.xib; sourceTree = "<group>"; };
+		034154B925BEC63C00251AC2 /* AssetSelectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetSelectCollectionViewCell.m; sourceTree = "<group>"; };
+		034154BA25BEC63C00251AC2 /* SelectAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAssetsViewController.m; sourceTree = "<group>"; };
+		034154BB25BEC63C00251AC2 /* SelectImageStatusObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectImageStatusObj.m; sourceTree = "<group>"; };
+		034154C825BEC74800251AC2 /* PopSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopSelectView.xib; sourceTree = "<group>"; };
+		034154C925BEC74800251AC2 /* PopSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSelectView.h; sourceTree = "<group>"; };
+		034154CA25BEC74800251AC2 /* PopSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopSelectView.m; sourceTree = "<group>"; };
+		034154DD25BEC81D00251AC2 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		034154DE25BEC81D00251AC2 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		034154DF25BEC81D00251AC2 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		034154E025BEC81D00251AC2 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		034154E125BEC81D00251AC2 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		034154E225BEC81D00251AC2 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		034154EE25BECB0E00251AC2 /* ShowSelectImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowSelectImageViewController.h; sourceTree = "<group>"; };
+		034154EF25BECB0E00251AC2 /* ShowSelectImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowSelectImageViewController.m; sourceTree = "<group>"; };
+		034154F025BECB0E00251AC2 /* ShowSelectImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowSelectImageViewController.xib; sourceTree = "<group>"; };
 		0F2B992BA4B699E5909D7517 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.release.xcconfig"; path = "Target Support Files/Pods-TestDemo/Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4DC30D25281724936EDBDE85 /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.debug.xcconfig"; path = "Target Support Files/Pods-TestDemo/Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9517BD2EBEBADAE45077E90E /* libPods-TestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +133,6 @@
 				4DC30D25281724936EDBDE85 /* Pods-TestDemo.debug.xcconfig */,
 				0F2B992BA4B699E5909D7517 /* Pods-TestDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,11 +161,19 @@
 		0341545325BEB7BE00251AC2 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				034154DC25BEC81D00251AC2 /* MBProgressHUD+Add */,
 				0341548F25BEB84B00251AC2 /* Category */,
+				034154B125BEC63C00251AC2 /* Photo */,
 				0341545425BEB7BE00251AC2 /* AppDelegate.h */,
 				0341545525BEB7BE00251AC2 /* AppDelegate.m */,
 				0341545A25BEB7BE00251AC2 /* ViewController.h */,
 				0341545B25BEB7BE00251AC2 /* ViewController.m */,
+				034154C925BEC74800251AC2 /* PopSelectView.h */,
+				034154CA25BEC74800251AC2 /* PopSelectView.m */,
+				034154C825BEC74800251AC2 /* PopSelectView.xib */,
+				034154EE25BECB0E00251AC2 /* ShowSelectImageViewController.h */,
+				034154EF25BECB0E00251AC2 /* ShowSelectImageViewController.m */,
+				034154F025BECB0E00251AC2 /* ShowSelectImageViewController.xib */,
 				0341545D25BEB7BE00251AC2 /* Main.storyboard */,
 				0341546025BEB7C000251AC2 /* Assets.xcassets */,
 				0341546225BEB7C000251AC2 /* LaunchScreen.storyboard */,
@@ -167,6 +211,36 @@
 				0341549425BEB84B00251AC2 /* MacroDefine.h */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		034154B125BEC63C00251AC2 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				034154B325BEC63C00251AC2 /* AssetSelectCollectionViewCell.h */,
+				034154B925BEC63C00251AC2 /* AssetSelectCollectionViewCell.m */,
+				034154B525BEC63C00251AC2 /* AssetSelectCollectionViewCell.xib */,
+				034154B225BEC63C00251AC2 /* PHAssetGetThumbnailImages.h */,
+				034154B725BEC63C00251AC2 /* PHAssetGetThumbnailImages.m */,
+				034154B425BEC63C00251AC2 /* SelectAssetsViewController.h */,
+				034154BA25BEC63C00251AC2 /* SelectAssetsViewController.m */,
+				034154B825BEC63C00251AC2 /* SelectAssetsViewController.xib */,
+				034154B625BEC63C00251AC2 /* SelectImageStatusObj.h */,
+				034154BB25BEC63C00251AC2 /* SelectImageStatusObj.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		034154DC25BEC81D00251AC2 /* MBProgressHUD+Add */ = {
+			isa = PBXGroup;
+			children = (
+				034154DD25BEC81D00251AC2 /* MBProgressHUD+Add.m */,
+				034154DE25BEC81D00251AC2 /* error@2x.png */,
+				034154DF25BEC81D00251AC2 /* success@2x.png */,
+				034154E025BEC81D00251AC2 /* error.png */,
+				034154E125BEC81D00251AC2 /* success.png */,
+				034154E225BEC81D00251AC2 /* MBProgressHUD+Add.h */,
+			);
+			path = "MBProgressHUD+Add";
 			sourceTree = "<group>";
 		};
 		1BDCDFFA4C46F9FECC773E5E /* Frameworks */ = {
@@ -282,8 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0341546425BEB7C000251AC2 /* LaunchScreen.storyboard in Resources */,
+				034154BE25BEC63C00251AC2 /* SelectAssetsViewController.xib in Resources */,
 				0341546125BEB7C000251AC2 /* Assets.xcassets in Resources */,
 				0341545F25BEB7BE00251AC2 /* Main.storyboard in Resources */,
+				034154E525BEC81D00251AC2 /* success@2x.png in Resources */,
+				034154E625BEC81D00251AC2 /* error.png in Resources */,
+				034154CB25BEC74800251AC2 /* PopSelectView.xib in Resources */,
+				034154E725BEC81D00251AC2 /* success.png in Resources */,
+				034154BC25BEC63C00251AC2 /* AssetSelectCollectionViewCell.xib in Resources */,
+				034154F225BECB0E00251AC2 /* ShowSelectImageViewController.xib in Resources */,
+				034154E425BEC81D00251AC2 /* error@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +433,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0341549525BEB84B00251AC2 /* UIView+Frame.m in Sources */,
+				034154F125BECB0E00251AC2 /* ShowSelectImageViewController.m in Sources */,
+				034154C025BEC63C00251AC2 /* SelectAssetsViewController.m in Sources */,
+				034154BF25BEC63C00251AC2 /* AssetSelectCollectionViewCell.m in Sources */,
 				0341545C25BEB7BE00251AC2 /* ViewController.m in Sources */,
+				034154C125BEC63C00251AC2 /* SelectImageStatusObj.m in Sources */,
+				034154BD25BEC63C00251AC2 /* PHAssetGetThumbnailImages.m in Sources */,
+				034154E325BEC81D00251AC2 /* MBProgressHUD+Add.m in Sources */,
+				034154CC25BEC74800251AC2 /* PopSelectView.m in Sources */,
 				0341545625BEB7BE00251AC2 /* AppDelegate.m in Sources */,
 				0341546725BEB7C000251AC2 /* main.m in Sources */,
 				0341549625BEB84B00251AC2 /* UIColor+SNFoundation.m in Sources */,

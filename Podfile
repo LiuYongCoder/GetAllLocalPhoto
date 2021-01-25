@@ -6,4 +6,6 @@ target 'TestDemo' do
   pod 'SDWebImage'
   pod 'AFNetworking'
   pod 'YYText'
+  pod 'MBProgressHUD'
+  pod 'ScottAlertController'
 end

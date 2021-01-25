@@ -11,6 +11,8 @@
 #import "UIView+Frame.h"
 #import "SDWebImage.h"
 #import "MJExtension.h"
+#import "ScottAlertViewController.h"
+#import "MBProgressHUD+Add.h"
 
 #define KHaveLogin      @"KHaveLogin"
 #define myDotNumbers     @"0123456789.\n"   //匹配金额
