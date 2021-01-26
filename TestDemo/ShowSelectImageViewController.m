@@ -6,6 +6,7 @@
 //
 
 #import "ShowSelectImageViewController.h"
+#import "MacroDefine.h"
 #import "SelectAssetsViewController.h"
 
 @interface ShowSelectImageViewController ()
@@ -24,13 +25,13 @@
     SelectAssetsViewController * sVC = [SelectAssetsViewController new];
     sVC.selectCount = 9 - [self.imgMuAry count];
     sVC.selectImagesVideoBlock = ^(NSInteger type, NSMutableArray * _Nonnull imageArray) {
-        
+        NSLog(@"imageArray=======%@",imageArray);
         if (type == 0) // 图片
         {
-        
+            
         }else // 视频
         {
-           
+            
         }
     };
     [self.navigationController pushViewController:sVC animated:YES];

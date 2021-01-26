@@ -32,9 +32,14 @@
     self.gk_navTitle = @"编辑发布";
     
     self.gk_statusBarStyle = UIStatusBarStyleDefault;
-    
-    // 灰色
-//    [self setupBlackBarButtomItemWithTitle:@"下一步" target:self action:@selector(nextBtn) leftOrRight:NO];
+
+    UIButton *nextButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [nextButton setTitle:@"下一步" forState:UIControlStateNormal];
+    [nextButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [nextButton addTarget:self action:@selector(nextBtn) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:nextButton];
+    self.gk_navItemRightSpace = 15;
+    self.gk_navRightBarButtonItem = item;
     
     [_assetCollectionView registerNib:[UINib nibWithNibName:@"AssetSelectCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"AssetSelectCollectionViewCell"];
     _assetCollectionView.delegate = self;
@@ -197,14 +202,6 @@
            model.isSelectImage ? [weakSelf.selectArr addObject:image] : [weakSelf.selectArr removeObject:image];
         });
     }];
-    
-//    if (_selectArr.count <= 0) {
-//        // 灰色
-//        [self setupBlackBarButtomItemWithTitle:@"下一步" target:self action:@selector(nextBtn) leftOrRight:NO];
-//    } else {
-//        // 红色
-//        [self setupOtherBarButtomItemWithTitle:@"下一步" target:self action:@selector(nextBtn) leftOrRight:NO];
-//    }
 }
 
 // 下一步
